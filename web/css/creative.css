@@ -1,0 +1,998 @@
+/*!
+ * Start Bootstrap - Creative v3.3.7+1 (http://startbootstrap.com/template-overviews/creative)
+ * Copyright 2013-2016 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap/blob/gh-pages/LICENSE)
+ */
+html,
+body {
+    height: 100%;
+    width: 100%;
+    margin:0px;
+}
+
+.semBarra{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    background-color: #921E1E;
+}
+
+.semBarraSobre{
+    overflow-x: hidden;
+    overflow-y: hidden;
+}
+
+.svg{
+    height:100%;
+    align-self:center;
+    background-color: #A8B2B2;
+}
+
+.svgi{
+    height: calc(100% - 50px);
+    width:100%;
+}
+
+#rodape{
+    position: absolute;
+    bottom: 0;
+/*    background-image: url('../img/Rodape.png');*/
+    background-color: #921E1E;
+    width: 100%;
+    text-align: center;
+
+    -webkit-box-shadow: 0px 2px 54px 1px rgba(0,0,0,0.6);
+    -moz-box-shadow: 0px 2px 54px 1px rgba(0,0,0,0.6);
+    box-shadow: 0px 2px 54px 1px rgba(0,0,0,0.6);
+}
+
+#cabecalho{
+    background-color: white;
+    border-radius: 0px 0px 0px 27px;
+    position: fixed;
+    top: 0px;
+    right: 0px;
+}
+
+ a:link {
+    color: #333333;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #333333;
+    text-decoration: none;
+}
+
+ a:hover {
+    color: #921E1E;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+ a:active {
+    color: #333333;
+    background-color: transparent;
+    text-decoration: underline;
+}
+
+.icoCabecalho{
+    color: #333333;
+    margin-left: 20px;
+    margin-top: 5px;
+    text-align: center;
+    float: left;
+    cursor:pointer;
+}
+
+.icoCabecalho:hover{
+    color: #921E1E;
+    text-decoration: underline;
+}
+
+.ico{
+    width: 5%;
+    margin:10px;
+    cursor:pointer;
+
+    filter: grayscale(100%);
+
+    border-radius: 15px 15px 15px 15px;
+    -moz-border-radius: 15px 15px 15px 15px;
+    -webkit-border-radius: 15px 15px 15px 15px;
+    border: 2px solid white;
+}
+
+.ico:hover {
+    filter: grayscale(0%);
+
+}
+
+.invisive{
+    display: block;
+}
+
+#telaEscura{
+    background-color: black;
+    opacity: 0.5;
+    height: 100%;
+    width:100%;
+    position: absolute;
+    top:0px;
+    display: none;
+}
+
+#telaEscura2{
+    background-color: black;
+    opacity: 0.5;
+    height: 100%;
+    width:100%;
+    position: absolute;
+    top:0px;
+    display: block;
+}
+
+#telaEscura3{
+    background-color: black;
+    opacity: 0.5;
+    height: 100%;
+    width:100%;
+    position: absolute;
+    top:0px;
+    display: none;
+}
+
+.xzinho{
+    width:20px;
+    height: 20px;
+    background-color: #921E1E;
+    text-align: center;
+    color:white;
+    cursor:pointer;
+    border-radius: 100%;
+    top:50%;
+    left:50%;
+    right:0px;
+    float:right;
+}
+
+.cor{
+    color:#921E1E;
+}
+
+#Contato{
+    display: none;
+    position:absolute;
+    top:50%;
+    left:50%;
+    background-color: white;
+    margin: auto;
+    margin-top:-240px;
+    margin-left: -290px;
+    padding: 15px;
+    text-align: center;
+
+    border-radius: 23px 23px 23px 23px;
+    -moz-border-radius: 23px 23px 23px 23px;
+    -webkit-border-radius: 23px 23px 23px 23px;
+    border: 0px solid #000000;
+}
+
+#Contato hr{
+    border: 5px solid #921E1E; 
+    border-radius: 300px ; 
+    height: 0px; 
+    text-align: center; 
+}
+
+#Contato h1{
+    color:#921E1E;
+    font-size: 50px;
+}
+
+.contatinhos{
+    text-align: center;
+    float:left;
+    margin: 15px;
+}
+
+.contatinhos p{
+    font-size: 18px;
+}
+
+#Sobre{
+    display: none;
+    position:absolute;
+    top:50%;
+    left:50%;
+    background-color: white;
+    margin: auto;
+    margin-top:-235px;
+    margin-left: -330px;
+    padding: 15px;
+    text-align: center;
+
+    border-radius: 23px 23px 23px 23px;
+    -moz-border-radius: 23px 23px 23px 23px;
+    -webkit-border-radius: 23px 23px 23px 23px;
+    border: 0px solid #000000;
+}
+
+.jSobre{
+    text-align: center;
+}
+
+.jSobre h1{
+    color:#921E1E;
+    font-size: 45px;
+}
+
+#Sobre h1{
+    color:#921E1E;
+    font-size: 50px;
+}
+
+.formBusc{
+    text-align: center;
+}
+
+#Produtos{
+    height:400px;
+    width: 640px;
+    display: none;
+    position:absolute;
+    top:50%;
+    left:50%;
+    background-color: white;
+    margin: auto;
+    margin-top:-270px;
+    margin-left: -340px;
+    padding: 15px;
+    text-align: center;
+
+    border-radius: 23px 23px 23px 23px;
+    -moz-border-radius: 23px 23px 23px 23px;
+    -webkit-border-radius: 23px 23px 23px 23px;
+    border: 0px solid #000000;
+}
+
+
+#Produtos h1{
+    color:#921E1E;
+    font-size: 50px;
+}
+
+#Produtos span{
+    text-align: left;
+}
+
+.prodFrame{
+    overflow-x: no-content;
+    overflow-y: no-content;
+    background-color: white;
+}
+
+.prodTable{
+    margin-bottom: 10px;
+}
+
+.detailTable{
+    margin-bottom: 10px;
+    color:#921E1E;
+}
+
+.prodNome{
+    color:#921E1E;
+    font-size: 20px;
+    text-align: left;
+}
+
+.prodNomeExcluir{
+    color:#921E1E;
+    font-size: 20px;
+    width: 500px;
+    text-align: left;
+}
+
+.prodMarca{
+    color:black;
+    font-size: 20px;
+    width: 100px;
+    text-align: right;
+    background-color: #921E1E;
+    color:white;
+    border-radius:5px;
+    padding:5px;
+}
+
+.prodImg{
+    margin-right: 15px;
+}
+
+.detail{
+    vertical-align: top;
+}
+
+.detailImg{
+    vertical-align: top;
+    padding-right: 15px;
+    width: 100px;
+}
+
+.detailVendImg{
+    vertical-align: top;
+    padding-right: 10px;
+    width: 144px;
+}
+
+.prodDescri{
+    text-align: left;
+}
+
+#Cadastrar{
+    height:400px;
+    width: 640px;
+    display: none;
+    position:absolute;
+    top:50%;
+    left:50%;
+    background-color: white;
+    margin: auto;
+    margin-top:-270px;
+    margin-left: -340px;
+    padding: 15px;
+    text-align: center;
+
+    border-radius: 23px 23px 23px 23px;
+    -moz-border-radius: 23px 23px 23px 23px;
+    -webkit-border-radius: 23px 23px 23px 23px;
+    border: 0px solid #000000;
+}
+
+
+#Cadastrar h1{
+    color:#921E1E;
+    font-size: 50px;
+}
+
+.cadCampo{
+    color:black;
+    text-align: right;
+    vertical-align: top;
+    padding-left: 0px;
+    padding-top: 7px;
+}
+
+.cadCampoLogin{
+    color:black;
+    color:#921E1E;
+    text-align: right;
+    vertical-align: top;
+    padding-left: 0px;
+    padding-top: 7px;
+}
+
+.cadCampoText{
+    width:400px;
+}
+
+.cadBotao{
+    text-align: center;
+
+}
+
+.txtArea{
+    resize: none;
+}
+
+.cadTextBox{
+    width: 250px;
+    display: inline-block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    padding: 10px 20px;
+    border: 2px solid #921e1e;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    font: normal 16px/normal "Times New Roman", Times, serif;
+    color: rgba(0,142,198,1);
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background: rgba(252,252,252,1);
+    -webkit-box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) inset;
+    box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) inset;
+    text-shadow: 1px 1px 0 rgba(255,255,255,0.66) ;
+    -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+}
+
+.cadTextBoxBuscar{
+    display: inline-block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    padding: 5px 5px;
+    border: 2px solid #921e1e;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    font: normal 16px/normal "Times New Roman", Times, serif;
+    color: rgba(0,142,198,1);
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background: rgba(252,252,252,1);
+    -webkit-box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) inset;
+    box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) inset;
+    text-shadow: 1px 1px 0 rgba(255,255,255,0.66) ;
+    -webkit-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 200ms cubic-bezier(0.42, 0, 0.58, 1);
+    text-align: left;
+}
+
+.cadTextBoxFoto{
+    width: 35px;
+}
+
+.cadTable{
+    padding-left: 70px;
+}
+
+.cadTextBoxBuscarNome{
+    width: 200px;
+}
+
+.cadTextBoxBuscarMarca{
+    width: 160px;
+}
+
+.cadTextBoxBuscarPreco{
+    width: 100px;
+}
+
+.cadImg{
+    text-align: center;
+}
+
+.btnCad{
+    width: 550px;;
+}
+
+.btnCad:disabled{
+    background-color:#333333;
+}
+
+.btnSeta{
+    width: 20px;
+    height: 30px;
+    cursor: pointer;
+    background: #921e1e;
+    text-align: center;
+    text-overflow: clip;
+    border: none;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    color: rgba(255,255,255,0.9);
+    padding-left: 5px;
+    padding-right: 5px;
+    -ms-user-select:element;
+}
+
+#BtnCad{
+  
+}
+
+#Cadastrado{
+    display: none;
+    position:absolute;
+    top:50%;
+    left:50%;
+    background-color: white;
+    margin: auto;
+    margin-top:-120px;
+    margin-left: -140px;
+    padding: 15px;
+    text-align: center;
+
+    border-radius: 23px 23px 23px 23px;
+    -moz-border-radius: 23px 23px 23px 23px;
+    -webkit-border-radius: 23px 23px 23px 23px;
+    border: 1px solid #921E1E;
+}
+
+#Cadastrado h2{
+    color:#921E1E;
+    font-size: 20px;
+}
+
+.botao{
+    display: inline-block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    cursor: pointer;
+    padding: 10px 20px;
+    border: none;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    font: normal 16px/normal "Times New Roman", Times, serif;
+    color: rgba(255,255,255,0.9);
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background: #921e1e;
+    -webkit-box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) ;
+    box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) ;
+    text-shadow: -1px -1px 0 rgba(15,73,168,0.66) ;
+    -webkit-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+    align-items: center;
+    text-align: center;
+}
+
+.botaoFiltrar{
+    width:100px;
+    display: inline-block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    cursor: pointer;
+    padding: 5px 5px;
+    border: none;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    font: normal 16px/normal "Times New Roman", Times, serif;
+    color: rgba(255,255,255,0.9);
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background: #921e1e;
+    -webkit-box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) ;
+    box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) ;
+    text-shadow: -1px -1px 0 rgba(15,73,168,0.66) ;
+    -webkit-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+    align-items: center;
+    text-align: center;
+}
+
+.botaoExcluir{
+    width:100px;
+    display: inline-block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    cursor: pointer;
+    padding: 5px 5px;
+    border: none;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    font: normal 16px/normal "Times New Roman", Times, serif;
+    color: rgba(255,255,255,0.9);
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background: #921e1e;
+    -webkit-box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) ;
+    box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) ;
+    text-shadow: -1px -1px 0 rgba(15,73,168,0.66) ;
+    -webkit-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+    align-items: center;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.botaoLogin{
+    width:140px;
+    display: inline-block;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    cursor: pointer;
+    padding: 10px 10px;
+    border: none;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    font: normal 16px/normal "Times New Roman", Times, serif;
+    color: rgba(255,255,255,0.9);
+    -o-text-overflow: clip;
+    text-overflow: clip;
+    background: #921e1e;
+    -webkit-box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) ;
+    box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) ;
+    text-shadow: -1px -1px 0 rgba(15,73,168,0.66) ;
+    -webkit-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+    -moz-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+    -o-transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+    transition: all 300ms cubic-bezier(0.42, 0, 0.58, 1);
+    align-items: center;
+    text-align: center;
+    margin: 10px;
+}
+
+#Excluir{
+    height:400px;
+    width: 640px;
+    display: none;
+    position:absolute;
+    top:50%;
+    left:50%;
+    background-color: white;
+    margin: auto;
+    margin-top:-270px;
+    margin-left: -340px;
+    padding: 15px;
+    text-align: center;
+
+    border-radius: 23px 23px 23px 23px;
+    -moz-border-radius: 23px 23px 23px 23px;
+    -webkit-border-radius: 23px 23px 23px 23px;
+    border: 0px solid #000000;
+}
+
+
+#Excluir h1{
+    color:#921E1E;
+    font-size: 50px;
+}
+
+#Excluido{
+    display: none;
+    position:absolute;
+    top:50%;
+    left:50%;
+    background-color: white;
+    margin: auto;
+    margin-top:-120px;
+    margin-left: -140px;
+    padding: 15px;
+    text-align: center;
+
+    border-radius: 23px 23px 23px 23px;
+    -moz-border-radius: 23px 23px 23px 23px;
+    -webkit-border-radius: 23px 23px 23px 23px;
+    border: 1px solid #921E1E;
+}
+
+#Excluido h2{
+    color:#921E1E;
+    font-size: 20px;
+}
+
+::-webkit-scrollbar {
+    width: 11px;
+    height: 11px;
+}
+::-webkit-scrollbar-button {
+    width: 0px;
+    height: 0px;
+}
+::-webkit-scrollbar-thumb {
+    background: #921e1e;
+    border: 0px none #ffffff;
+    border-radius: 50px;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #921e1e;
+}
+::-webkit-scrollbar-thumb:active {
+    background: #921e1e;
+}
+::-webkit-scrollbar-track {
+    background: #ffffff;
+    border: 0px none #ffffff;
+    border-radius: 50px;
+}
+::-webkit-scrollbar-track:hover {
+    background: #ffffff;
+}
+::-webkit-scrollbar-track:active {
+    background: #ffffff;
+}
+::-webkit-scrollbar-corner {
+    background: transparent;
+}
+
+#Alterar{
+    height:400px;
+    width: 640px;
+    display: none;
+    position:absolute;
+    top:50%;
+    left:50%;
+    background-color: white;
+    margin: auto;
+    margin-top:-270px;
+    margin-left: -340px;
+    padding: 15px;
+    text-align: center;
+
+    border-radius: 23px 23px 23px 23px;
+    -moz-border-radius: 23px 23px 23px 23px;
+    -webkit-border-radius: 23px 23px 23px 23px;
+    border: 0px solid #000000;
+}
+
+
+#Alterar h1{
+    color:#921E1E;
+    font-size: 50px;
+}
+
+.formAlt{
+    text-align: center;
+}
+
+.altImg{
+    width: 64px;
+    height: 64px;
+}
+
+.altVendCampo{
+    width: 90%;
+}
+
+.txtAlt{
+    width:180px;
+}
+
+.txtTxtInfo{
+    text-align: right;
+}
+
+.txtAltMini{
+    width: 50px;
+}
+
+.btnAltera{
+    height: 64px;
+}
+
+#Alterado{
+    display: none;
+    position:absolute;
+    top:50%;
+    left:50%;
+    background-color: white;
+    margin: auto;
+    margin-top:-120px;
+    margin-left: -140px;
+    padding: 15px;
+    text-align: center;
+
+    border-radius: 23px 23px 23px 23px;
+    -moz-border-radius: 23px 23px 23px 23px;
+    -webkit-border-radius: 23px 23px 23px 23px;
+    border: 1px solid #921E1E;
+}
+
+#Alterado h2{
+    color:#921E1E;
+    font-size: 20px;
+}
+
+#Comprando{
+    display: none;
+    position:absolute;
+    top:50%;
+    left:50%;
+    background-color: white;
+    margin: auto;
+    margin-top:-120px;
+    margin-left: -140px;
+    padding: 15px;
+    text-align: center;
+
+    border-radius: 23px 23px 23px 23px;
+    -moz-border-radius: 23px 23px 23px 23px;
+    -webkit-border-radius: 23px 23px 23px 23px;
+    border: 1px solid #921E1E;
+}
+
+#Comprando h2{
+    color:#921E1E;
+    font-size: 20px;
+}
+
+
+#Login{
+    height:400px;
+    width: 640px;
+    display: block;
+    position:absolute;
+    top:50%;
+    left:50%;
+    background-color: white;
+    margin: auto;
+    margin-top:-270px;
+    margin-left: -340px;
+    padding: 15px;
+    text-align: center;
+
+    border-radius: 23px 23px 23px 23px;
+    -moz-border-radius: 23px 23px 23px 23px;
+    -webkit-border-radius: 23px 23px 23px 23px;
+    border: 0px solid #000000;
+}
+
+
+#Login h1{
+    color:#921E1E;
+    font-size: 50px;
+}
+
+#CadastrarVendedor{
+    height:400px;
+    width: 640px;
+    display: none;
+    position:absolute;
+    top:50%;
+    left:50%;
+    background-color: white;
+    margin: auto;
+    margin-top:-270px;
+    margin-left: -340px;
+    padding: 15px;
+    text-align: center;
+
+    border-radius: 23px 23px 23px 23px;
+    -moz-border-radius: 23px 23px 23px 23px;
+    -webkit-border-radius: 23px 23px 23px 23px;
+    border: 0px solid #000000;
+}
+
+
+#CadastrarVendedor h1{
+    color:#921E1E;
+    font-size: 50px;
+}
+
+#Vendedores{
+    height:400px;
+    width: 640px;
+    display: none;
+    position:absolute;
+    top:50%;
+    left:50%;
+    background-color: white;
+    margin: auto;
+    margin-top:-270px;
+    margin-left: -340px;
+    padding: 15px;
+    text-align: center;
+
+    border-radius: 23px 23px 23px 23px;
+    -moz-border-radius: 23px 23px 23px 23px;
+    -webkit-border-radius: 23px 23px 23px 23px;
+    border: 0px solid #000000;
+}
+
+#Vendedores h1{
+    color:#921E1E;
+    font-size: 50px;
+}
+
+#VendedorCadastrado{
+    display: none;
+    position:absolute;
+    top:50%;
+    left:50%;
+    background-color: white;
+    margin: auto;
+    margin-top:-120px;
+    margin-left: -340px;
+    padding: 15px;
+    text-align: center;
+
+    border-radius: 23px 23px 23px 23px;
+    -moz-border-radius: 23px 23px 23px 23px;
+    -webkit-border-radius: 23px 23px 23px 23px;
+    border: 1px solid #921E1E;
+}
+
+#VendedorCadastrado h2{
+    color:#921E1E;
+    font-size: 20px;
+}
+
+.vendImg{
+    width: 100px;
+    padding-right: 10px;
+}
+
+#Perfil{
+    height:400px;
+    width: 640px;
+    display: none;
+    position:absolute;
+    top:50%;
+    left:50%;
+    background-color: white;
+    margin: auto;
+    margin-top:-270px;
+    margin-left: -340px;
+    padding: 15px;
+    text-align: center;
+
+    border-radius: 23px 23px 23px 23px;
+    -moz-border-radius: 23px 23px 23px 23px;
+    -webkit-border-radius: 23px 23px 23px 23px;
+    border: 0px solid #000000;
+}
+
+
+#Perfil h1{
+    color:#921E1E;
+    font-size: 50px;
+}
+
+#Mensagens{
+    height:400px;
+    width: 640px;
+    display: none;
+    position:absolute;
+    top:50%;
+    left:50%;
+    background-color: white;
+    margin: auto;
+    margin-top:-270px;
+    margin-left: -340px;
+    padding: 15px;
+    text-align: center;
+
+    border-radius: 23px 23px 23px 23px;
+    -moz-border-radius: 23px 23px 23px 23px;
+    -webkit-border-radius: 23px 23px 23px 23px;
+    border: 0px solid #000000;
+}
+
+
+#Mensagens h1{
+    color:#921E1E;
+    font-size: 50px;
+}
+
+.formBotao{
+    float: left;
+    display:inline-block;
+}
+
+.sumir {
+    animation: sumindo .3s;
+    animation-fill-mode:forwards;
+    display: inline-flex;
+}
+
+.centralizar{
+    text-align: center;
+    align-items: center;
+}
+
+@keyframes sumindo {
+    0% {
+        display: inline-flex;
+        opacity: 1;
+        transform: scale(1);
+        -webkit-transform: scale(1);
+    }
+    99% {
+        display: inline-flex;
+        opacity: 0;
+        transform: scale(0);
+        -webkit-transform: scale(0);
+    }
+    100% {
+        display: none;
+        opacity: 0;
+        transform: scale(0);
+        -webkit-transform: scale(0);
+    }
+}
+

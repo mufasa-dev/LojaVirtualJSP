@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 19.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 150 150" style="enable-background:new 0 0 150 150;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#921E1E;}
+	.st1{display:none;}
+	.st2{display:inline;fill:#33ACD0;stroke:#000000;stroke-miterlimit:10;}
+	.st3{display:inline;fill:#40BEDB;}
+	.st4{display:inline;fill:#FFFFFF;}
+	.st5{font-family:'MyriadPro-Regular';}
+	.st6{font-size:21.6403px;}
+	.st7{display:inline;fill:#7A1315;stroke:#000000;stroke-miterlimit:10;}
+	.st8{display:inline;fill:#891B21;}
+	.st9{display:inline;fill:#9A9999;stroke:#000000;stroke-miterlimit:10;}
+	.st10{display:inline;fill:#55ACB6;stroke:#000000;stroke-miterlimit:10;}
+	.st11{fill:#FFFFFF;}
+	.st12{fill:#40B549;stroke:#000000;stroke-miterlimit:10;}
+	.st13{fill:#40B549;}
+</style>
+<g id="fundo">
+	<rect id="XMLID_6_" class="st0" width="150" height="150"/>
+</g>
+<g id="sobre_nís" class="st1">
+	<path id="XMLID_13_" class="st2" d="M27.7,99.8C29,85.5,37.1,76.5,52,72.6h53.6c10.3,5.6,14.6,15.6,16.8,27.2
+		C122.3,123.6,27.7,125.6,27.7,99.8z"/>
+	<ellipse id="XMLID_12_" class="st2" cx="75" cy="45.2" rx="42.2" ry="43.1"/>
+	<ellipse id="XMLID_11_" class="st3" cx="66.3" cy="21.1" rx="11.5" ry="11.4"/>
+	<path id="XMLID_10_" class="st3" d="M45.9,34.2c-10.8,13.1-9.6,31.4,4.9,39.3c9.2,5.2,20.6,0,14.2-2.9
+		c-15.5-9.7-17.7-22.7-9.6-33.4C58.4,32.5,49.9,29.5,45.9,34.2z"/>
+	<path id="XMLID_9_" class="st3" d="M46.1,79.2c-9.8,6.9-15.1,13.7-15.9,20.6c-0.4,5.5,7.4,12.2,9.6,5.8c1-8.6,5.2-13.3,8.5-16
+		C54.8,85.7,49.4,77.8,46.1,79.2z"/>
+	<text id="XMLID_7_" transform="matrix(1 0 0 1 30.0866 141.9232)" class="st4 st5 st6">Sobre nós</text>
+</g>
+<g id="Contato" class="st1">
+	<path id="XMLID_2_" class="st7" d="M26.5,61.5c6.4-18.5,21.6-35,43.6-49.9H120l9.2,9.2c-6.5,20-16.5,30.5-29.7,32.6L91.8,48
+		c-12.1,7.3-21.7,15.9-23.5,28.6l8.8,6.2C74,106,62.5,117.6,46.7,118.4L34.6,110L26.5,61.5z"/>
+	<path id="XMLID_3_" class="st8" d="M32,60.8c9.7-16.1,21.8-31.3,41.4-43.6h17.2c-25.6,16.4-43.5,37.5-56.1,62L32,60.8z"/>
+	<text id="XMLID_1_" transform="matrix(1 0 0 1 38.4612 141.923)" class="st4 st5 st6">Contato</text>
+</g>
+<g id="Produtos" class="st1">
+	<path id="XMLID_4_" class="st9" d="M118.2,104.3H37.6c-6.6,0-12-5.4-12-12V23.7c0-6.6,5.4-12,12-12h80.6c6.6,0,12,5.4,12,12v68.7
+		C130.2,98.9,124.8,104.3,118.2,104.3z"/>
+	<rect id="XMLID_5_" x="36.3" y="110.7" class="st9" width="83.3" height="12.7"/>
+	<rect id="XMLID_8_" x="63.7" y="104.3" class="st9" width="22.7" height="10"/>
+	<rect id="XMLID_14_" x="36.3" y="21.3" class="st10" width="81.3" height="73.3"/>
+	<text id="XMLID_15_" transform="matrix(1 0 0 1 33.8948 141.9232)" class="st4 st5 st6">Produtos</text>
+</g>
+<g id="cadastrar">
+	<text id="XMLID_18_" transform="matrix(1 0 0 1 32.034 141.9232)" class="st11 st5 st6">Cadastrar</text>
+	<path id="XMLID_20_" class="st12" d="M82.3,117.5H71.2c-6.6,0-12-5.4-12-12V24.3c0-6.6,5.4-12,12-12h11.1c6.6,0,12,5.4,12,12v81.2
+		C94.3,112.1,88.9,117.5,82.3,117.5z"/>
+	<path id="XMLID_19_" class="st12" d="M129.3,59.4v11.1c0,6.6-5.4,12-12,12H36.2c-6.6,0-12-5.4-12-12V59.4c0-6.6,5.4-12,12-12h81.2
+		C123.9,47.4,129.3,52.8,129.3,59.4z"/>
+	<path id="XMLID_17_" class="st13" d="M129.3,59.4v11.1c0,6.6-5.4,12-12,12H36.2c-6.6,0-12-5.4-12-12V59.4c0-6.6,5.4-12,12-12h81.2
+		C123.9,47.4,129.3,52.8,129.3,59.4z"/>
+	<path id="XMLID_16_" class="st13" d="M82.3,117.5H71.2c-6.6,0-12-5.4-12-12V24.3c0-6.6,5.4-12,12-12h11.1c6.6,0,12,5.4,12,12v81.2
+		C94.3,112.1,88.9,117.5,82.3,117.5z"/>
+</g>
+</svg>

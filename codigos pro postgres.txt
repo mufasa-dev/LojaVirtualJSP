@@ -1,0 +1,53 @@
+insert into produtos (nome, marca) values ('coisa', 'doce')
+
+select * from produtos
+
+drop table produtos
+
+create table vendedor(
+	id serial primary key,
+	nome varchar unique not null,
+	senha varchar,
+	eMail varchar,
+	dataCadastro date,
+	foto varchar,
+	assinatura varchar
+);
+
+insert into vendedor (nome, senha, eMail, dataCadastro, foto, assinatura)
+values ('admin','123','admin@cavernaDoJao.com.br',now(), 'nada.png', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam eu massa nisi. Integer ultrices vitae dolor id tincidunt. Nam eu mauris augue. Donec tristique sapien nulla, eget blandit odio lacinia vitae. Donec egestas sapien blandit commodo porta. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.');
+
+insert into vendedor (nome, senha, eMail, dataCadastro, assinatura, foto)
+values ('Bruno','Deltor@14','bruno.ribeiro96@cavernaDoJao.com.br',now(),'Meus produtos são os melhores', 'bruno.png');
+
+create table marca(
+	idMarca serial primary key,
+	nomeMarca varchar,
+	deescriMarca varchar
+);
+
+insert into marca (nomeMarca, descriMarca) values ('Nivia', 'marca qualquer');
+insert into marca (nomeMarca, descriMarca) values ('AMD', 'marca qualquer');
+insert into marca (nomeMarca, descriMarca) values ('Sandisk', 'marca qualquer');
+insert into marca (nomeMarca, descriMarca) values ('Kingston', 'marca qualquer');
+insert into marca (nomeMarca, descriMarca) values ('Microsoft', 'marca qualquer');
+insert into marca (nomeMarca, descriMarca) values ('Sansung', 'marca qualquer');
+insert into marca (nomeMarca, descriMarca) values ('Lenovo', 'marca qualquer');
+insert into marca (nomeMarca, descriMarca) values ('Positivo', 'marca qualquer');
+
+create table produtos(
+	id serial primary key,
+	status numeric,
+    	nome varchar,
+    	marca integer,
+	foto varchar,
+	descri varchar,
+	preco numeric,
+	idVendedor integer,
+	dataCriacao date,
+	idComprador integer,
+	dataCompra date,
+	constraint fk_idVendedor foreign key (idVendedor) references vendedor (id),
+	constraint fk_idMarca foreign key (marca) references marca (idMarca)
+)
+
