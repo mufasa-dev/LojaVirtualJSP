@@ -1,0 +1,37 @@
+# Arquivos compilados e temporários
+*.class
+*.war
+*.ear
+*.jar
+
+# Diretórios gerados automaticamente
+/bin/
+/build/
+/dist/
+/target/
+
+# Configurações locais de IDEs
+/.idea/
+/*.iml
+/.vscode/
+/*.project
+/*.classpath
+
+# Logs e temporários
+*.log
+*.tmp
+
+# Diretórios temporários do Tomcat
+/tomcat/
+/work/
+
+# Dependências externas (gerenciadas por Maven ou Gradle)
+lib/
+
+# Cache
+/.gradle/
+/.mvn/
+
+# Outros arquivos e diretórios
+*.DS_Store
+Thumbs.db
